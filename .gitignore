@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# Secrets / OS / IDE
+.env
+.DS_Store
+.vscode/
+.idea/
+
+# Data and generated artifacts (folders kept via .gitkeep)
+data/*/*
+!data/*/.gitkeep
+artifacts/*/*
+!artifacts/*/.gitkeep
+reports/figures/*
+!reports/figures/.gitkeep

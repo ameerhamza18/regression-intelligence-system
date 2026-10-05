@@ -1,0 +1,5 @@
+training:
+  cv_folds: 3
+
+logging:
+  level: DEBUG

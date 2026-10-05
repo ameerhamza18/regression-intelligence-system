@@ -1,0 +1,19 @@
+project:
+  name: regression-intelligence-system
+  random_seed: 42
+
+data:
+  raw_filename: demand_revenue_raw.csv
+  target: revenue
+  n_rows: 5000
+
+split:
+  test_size: 0.15
+  val_size: 0.15
+
+training:
+  cv_folds: 5
+  scoring: neg_root_mean_squared_error
+
+logging:
+  level: INFO
