@@ -20,5 +20,3 @@ data/*/*
 !data/*/.gitkeep
 artifacts/*/*
 !artifacts/*/.gitkeep
-reports/figures/*
-!reports/figures/.gitkeep
