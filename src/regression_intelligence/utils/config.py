@@ -17,9 +17,10 @@ class ProjectConfig(BaseModel):
 
 
 class DataConfig(BaseModel):
-    raw_filename: str
+    train_filename: str
+    store_filename: str
     target: str
-    n_rows: int = Field(gt=0)
+    date_column: str
 
 
 class SplitConfig(BaseModel):

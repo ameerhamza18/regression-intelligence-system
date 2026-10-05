@@ -3,9 +3,10 @@ project:
   random_seed: 42
 
 data:
-  raw_filename: demand_revenue_raw.csv
-  target: revenue
-  n_rows: 5000
+  train_filename: train.csv
+  store_filename: store.csv
+  target: sales
+  date_column: date
 
 split:
   test_size: 0.15

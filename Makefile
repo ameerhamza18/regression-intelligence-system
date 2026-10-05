@@ -12,3 +12,7 @@ format:
 
 test:
 	pytest --cov=regression_intelligence
+
+
+validate:
+	python scripts/run_validation.py
